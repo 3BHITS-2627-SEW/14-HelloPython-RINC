@@ -25,3 +25,12 @@ eineVariable = 15
 
 datenTyp = type(eineVariable)
 print ("Datentyp von eineVariable: ", datenTyp)
+
+# formatierte Ausgabe
+print("Zahl lautet %i \n und ist Cool!", eineVariable)
+# formatierte Strings
+einText = f"Zahl lautet {eineVariable**2} \n und ist Cool!"
+print(einText)
+
+# Eingabe von der Kommandozeile:
+
