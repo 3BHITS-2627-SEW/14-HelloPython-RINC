@@ -18,3 +18,10 @@ eineZweiteVariable : int = 14
 print("eineZweiteVariable", eineZweiteVariable)
 eineZweiteVariable = "Text"
 #print("eineZweiteVariable", eineZweiteVariable**3)
+
+datenTyp = type(eineVariable)
+print("Datentyp von eineVariable: ", datenTyp)
+eineVariable = 15
+
+datenTyp = type(eineVariable)
+print ("Datentyp von eineVariable: ", datenTyp)
